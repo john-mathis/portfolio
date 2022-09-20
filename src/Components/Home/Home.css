@@ -1,0 +1,6 @@
+.home-container {
+    background-color: red;
+    min-height: 60rem;
+    display: grid;
+    place-content: center;
+}
