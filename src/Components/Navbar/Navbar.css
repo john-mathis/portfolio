@@ -1,3 +1,4 @@
+/* Main nav container */
 .nav-container {
     display: flex;
     flex-direction: row;
@@ -6,6 +7,10 @@
     padding: 1rem;
     min-width: 100%;
     position: fixed;
+    background-color: var(--transparent-black);
+    z-index: 100;
+    backdrop-filter: var(--nav-blur);
+
 }
 
 .nav-container img {
@@ -13,40 +18,32 @@
 }
 
 
-
-svg {
+/* Open menu for mobile */
+.open-menu-mobile {
     min-width: 4rem;
     min-height: 2rem;
     cursor: pointer;
+    color: var(--red);
 }
 
 @media screen and (min-width:780px) {
-    svg {
-        display: none;
-    }
-}
-
-
-.desktop-nav {
-    display: flex;
-    justify-content: space-around;
-    min-width: 30rem;
-}
-
-
-@media screen and (max-width:780px) {
-    .desktop-nav {
+    .open-menu-mobile {
         display: none;
     }
 }
 
 
 
-/* Mobile Nav */
-
+/* Navigation for mobile*/
 .mobile-nav-slider {
     position: relative;
-    display: none;
+}
+
+
+@media screen and (min-width:780px) {
+    .mobile-nav-slider {
+        display: none;
+    }
 }
 
 .mobile-nav {
@@ -54,21 +51,51 @@ svg {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    background-color: red;
     min-width: 10rem;
     min-height: 55rem;
     text-decoration: underline;
+    text-underline-offset: var(--text-underline-spacing);
     right: 0;
-    top: 5.1rem;
+    top: 5rem;
     position: fixed;
-    /* display: none; */
+    background-color: var(--transparent-black);
+    backdrop-filter: var(--nav-blur);
+    z-index: 100;
 }
 
 .mobile-nav-links {
-    margin: 1rem 0;
+    margin: 2rem 0;
     font-size: 1rem;
+    font-weight: 700;
+    color: var(--red);
 }
 
+
+/* Displays and hides the mobile navigation slider */
 .active {
     display: block;
+}
+
+@media screen and (min-width:780px) {
+    .active {
+        display: none;
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+/* Navigation for desktop */
+.desktop-nav {
+    display: flex;
+    justify-content: space-around;
+    min-width: 30rem;
+}
+
+
+@media screen and (max-width:779px) {
+    .desktop-nav {
+        display: none;
+    }
 }

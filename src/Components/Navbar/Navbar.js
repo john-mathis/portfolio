@@ -1,20 +1,19 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Navbar.css";
 import Logo from "../../assets/cat.webp";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
-  const [mack, setMack] = useState("mobile-nav-slider");
-
-  console.log(showMenu);
-  console.log(mack);
+  const [mobileNavSliderClass, setMobileNavSliderClass] = useState(
+    "mobile-nav-slider hidden"
+  );
 
   const updateMenu = () => {
-    if (showMenu) {
-      console.log(showMenu);
-      setShowMenu(!showMenu);
-      setMack("mobile-nav-slider active");
+    if (!showMenu) {
+      setMobileNavSliderClass("mobile-nav-slider active");
+    } else {
+      setMobileNavSliderClass("mobile-nav-slider hidden");
     }
   };
 
@@ -22,13 +21,14 @@ const Navbar = () => {
     <>
       <div className="nav-container">
         <img src={Logo} alt="website logo"></img>
-        <span>
-          <GiHamburgerMenu
-            onClick={() => {
-              updateMenu();
-            }}
-          />
-        </span>
+
+        <GiHamburgerMenu
+          className="open-menu-mobile"
+          onClick={() => {
+            setShowMenu(!showMenu);
+            updateMenu();
+          }}
+        />
 
         <ul className="desktop-nav">
           <li className="desktop-nav-links">Home</li>
@@ -39,7 +39,7 @@ const Navbar = () => {
         </ul>
       </div>
 
-      <div className={mack}>
+      <div className={mobileNavSliderClass}>
         <ul className="mobile-nav">
           <li className="mobile-nav-links">Home</li>
           <li className="mobile-nav-links">Skills</li>
