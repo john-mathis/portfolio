@@ -14,7 +14,7 @@ const Skills = () => {
     <>
       <div className="skills-container">
         <div className="max-container-width">
-          <h3 className="skills-title">Skills</h3>
+          <h3 className="section-title">Skills</h3>
 
           <div className="skills-icons-container">
             <img className="skills-icon" alt="html logo" src={HTML} />

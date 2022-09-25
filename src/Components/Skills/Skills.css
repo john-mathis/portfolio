@@ -4,19 +4,7 @@
 }
 
 
-.skills-title {
-    font-size: 2rem;
-    font-weight: 600;
-    margin-top: 1rem;
-    text-decoration: underline;
-    text-underline-offset: var(--text-underline-spacing)
-}
 
-@media screen and (min-width:780px) {
-    .skills-title {
-        font-size: 2.25rem;
-    }
-}
 
 .skills-icons-container {
     display: grid;

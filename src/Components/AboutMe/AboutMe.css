@@ -1,4 +1,35 @@
-.about-me-container {
+.about-container {
     background-color: var(--black);
     min-height: 30em;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.name {
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+
+.about-description {
+    font-size: 1.2rem;
+}
+
+.about-img-container {
+    margin: auto;
+}
+
+
+.about-text-container {
+    text-align: center;
+}
+
+.john-img {
+    max-width: 20rem;
+    max-height: 20rem;
+    margin-top: 2rem;
 }
