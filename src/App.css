@@ -33,11 +33,18 @@ body {
 
 
 /* Global Styles */
-
 .max-container-width {
-  max-width: 90%;
+  max-width: 85%;
   margin: auto;
   padding: 1rem;
+}
+
+@media screen and (min-width:1200px) {
+
+  .max-container-width {
+    max-width: 80%;
+
+  }
 }
 
 

@@ -6,8 +6,15 @@
 .about {
     display: flex;
     flex-direction: column;
+    margin: auto;
 }
 
+
+@media screen and (min-width:780px) {
+    .about {
+        flex-direction: row;
+    }
+}
 
 .name {
     font-weight: 400;
@@ -17,10 +24,23 @@
 
 .about-description {
     font-size: 1.2rem;
+    max-width: 40rem;
+    line-height: 1.5;
+}
+
+
+@media screen and (min-width:780px) {
+    .about-description {
+        min-height: 10rem;
+        line-height: 2;
+        min-width: 15rem;
+    }
 }
 
 .about-img-container {
     margin: auto;
+    display: flex;
+    order: 2;
 }
 
 
@@ -28,8 +48,42 @@
     text-align: center;
 }
 
+@media screen and (min-width:780px) {
+
+    .about-text-container {
+        text-align: left;
+        margin-right: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+
 .john-img {
-    max-width: 20rem;
-    max-height: 20rem;
+    max-width: 16rem;
     margin-top: 2rem;
+}
+
+
+@media screen and (min-width:548px) {
+    .john-img {
+        max-width: 18rem;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .john-img {
+        max-width: 22rem;
+    }
+}
+
+.download-cv {
+
+    text-decoration: none;
+    background-color: var(--red);
+    max-width: 8rem;
+    text-align: center;
+    color: var(--white);
+    padding: .7rem .5rem;
 }
