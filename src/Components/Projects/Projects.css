@@ -1,3 +1,29 @@
 .projects-container {
     background-color: var(--dark-grey);
 }
+
+.container {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+    margin: 1rem auto;
+    gap: 4rem;
+    max-width: 60rem;
+    position: relative;
+}
+
+.project-card {
+    max-width: 20rem;
+    z-index: 10;
+    position: relative;
+}
+
+.card-overlay {
+    position: relative;
+    z-index: 1;
+}
+
+.card-overlay:hover {
+    background-color: red;
+    backdrop-filter: var(--nav-blur);
+}
