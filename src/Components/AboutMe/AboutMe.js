@@ -4,6 +4,7 @@ import John from "../../assets/john.jpg";
 
 const AboutMe = () => {
   return (
+    // About Section
     <>
       <div className="about-container">
         <div className="max-container-width about">

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./Navbar.css";
 import Logo from "../../assets/cat.webp";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -30,7 +30,7 @@ const Navbar = () => {
           }}
         />
 
-        <ul className="desktop-nav">
+        <ul className="desktop-nav desktop">
           <li className="desktop-nav-links">Home</li>
           <li className="desktop-nav-links">Skills</li>
           <li className="desktop-nav-links">About</li>

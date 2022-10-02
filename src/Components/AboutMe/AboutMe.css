@@ -1,8 +1,10 @@
+/* Main component container */
 .about-container {
     background-color: var(--black);
-    min-height: 30em;
 }
 
+
+/* Max width container */
 .about {
     display: flex;
     flex-direction: column;
@@ -16,6 +18,59 @@
     }
 }
 
+
+/* Image container */
+
+@media screen and (min-width:780px) {
+    .about-img-container {
+        order: 2;
+    }
+}
+
+.about-img-container {
+    margin: auto;
+    display: flex;
+}
+
+.john-img {
+    max-width: 16rem;
+    margin-top: 2rem;
+    max-height: 25rem;
+}
+
+
+@media screen and (min-width:548px) {
+    .john-img {
+        max-width: 18rem;
+
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .john-img {
+        max-width: 22rem;
+    }
+}
+
+/* Text container */
+.about-text-container {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+@media screen and (min-width:780px) {
+    .about-text-container {
+        text-align: left;
+        margin-right: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        order: 1;
+    }
+}
+
+
+/* Section title */
 .name {
     font-weight: 400;
     margin-bottom: 1rem;
@@ -26,6 +81,7 @@
     font-size: 1.2rem;
     max-width: 40rem;
     line-height: 1.5;
+    margin-bottom: 2rem;
 }
 
 
@@ -37,53 +93,15 @@
     }
 }
 
-.about-img-container {
-    margin: auto;
-    display: flex;
-    order: 2;
-}
-
-
-.about-text-container {
-    text-align: center;
-}
-
-@media screen and (min-width:780px) {
-
-    .about-text-container {
-        text-align: left;
-        margin-right: 2rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-}
-
-
-.john-img {
-    max-width: 16rem;
-    margin-top: 2rem;
-}
-
-
-@media screen and (min-width:548px) {
-    .john-img {
-        max-width: 18rem;
-    }
-}
-
-@media screen and (min-width:1200px) {
-    .john-img {
-        max-width: 22rem;
-    }
-}
 
 .download-cv {
-
     text-decoration: none;
     background-color: var(--red);
     max-width: 8rem;
     text-align: center;
     color: var(--white);
     padding: .7rem .5rem;
+    cursor: pointer;
+    position: relative;
+
 }

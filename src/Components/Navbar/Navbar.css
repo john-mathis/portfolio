@@ -87,7 +87,7 @@
 }
 
 /* Navigation for desktop */
-.desktop-nav {
+.desktop {
     display: flex;
     justify-content: space-around;
     min-width: 30rem;
@@ -95,7 +95,7 @@
 
 
 @media screen and (max-width:779px) {
-    .desktop-nav {
+    .desktop {
         display: none;
     }
 }

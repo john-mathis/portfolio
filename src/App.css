@@ -3,6 +3,7 @@
 
 :root {
   --white: #fff;
+  --icon-hover: rgb(44, 44, 44);
   --black: #121111;
   --transparent-black: #12111193;
   --dark-grey: #383838;
@@ -23,7 +24,6 @@
 body {
   color: #fff;
   font-family: "Source Sans Pro", sans-serif;
-  min-height: 300vh;
   background-color: var(--black);
 }
 
