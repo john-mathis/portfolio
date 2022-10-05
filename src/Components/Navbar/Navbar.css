@@ -71,6 +71,11 @@
 }
 
 
+.mobile-nav-links a {
+    color: var(--red);
+}
+
+
 /* Displays and hides the mobile navigation slider */
 .active {
     display: block;
@@ -91,6 +96,10 @@
     display: flex;
     justify-content: space-around;
     min-width: 30rem;
+}
+
+.desktop-nav-links a {
+    color: var(--white);
 }
 
 

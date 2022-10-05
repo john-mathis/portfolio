@@ -6,7 +6,7 @@ const AboutMe = () => {
   return (
     // About Section
     <>
-      <div className="about-container">
+      <div className="about-container" id="about">
         <div className="max-container-width about">
           <div className="about-img-container">
             <img

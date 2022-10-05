@@ -12,7 +12,7 @@ import NODEJS from "../../assets/nodejs.webp";
 const Skills = () => {
   return (
     <>
-      <div className="skills-container">
+      <div className="skills-container" id="skills">
         <div className="max-container-width">
           <h3 className="section-title">Skills</h3>
 

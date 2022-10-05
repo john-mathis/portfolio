@@ -7,11 +7,21 @@ const Footer = () => {
       <footer className="footer-container">
         <div className="max-container-width">
           <ul className="desktop-nav footer">
-            <li className="desktop-nav-links">Home</li>
-            <li className="desktop-nav-links">Skills</li>
-            <li className="desktop-nav-links">About</li>
-            <li className="desktop-nav-links">Projects</li>
-            <li className="desktop-nav-links">Contact</li>
+            <li className="desktop-nav-links">
+              <a href="#home">Home</a>
+            </li>
+            <li className="desktop-nav-links">
+              <a href="#skills">Skills</a>
+            </li>
+            <li className="desktop-nav-links">
+              <a href="#about">About</a>
+            </li>
+            <li className="desktop-nav-links">
+              <a href="#projects">Projects</a>
+            </li>
+            <li className="desktop-nav-links">
+              <a href="#contact">Contact</a>
+            </li>
           </ul>
           <p className="copyright">Developed by John Mathis © 2022</p>
         </div>

@@ -3,27 +3,56 @@
 }
 
 .container {
+    position: relative;
     display: grid;
     place-items: center;
     grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
     margin: 1rem auto;
     gap: 4rem;
     max-width: 60rem;
-    position: relative;
+}
+
+.project-card:hover .card-overlay {
+    opacity: 1;
 }
 
 .project-card {
-    max-width: 20rem;
-    z-index: 10;
     position: relative;
+    max-width: 20rem;
+    cursor: pointer;
 }
+
+.project-name {
+    text-transform: uppercase;
+
+    margin-bottom: 1rem;
+}
+
+.project-card a {
+    color: var(--white);
+}
+
 
 .card-overlay {
-    position: relative;
-    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 2.25rem;
+    bottom: 0.2rem;
+    left: 0;
+    right: 0;
+    transition: .5s ease;
+    background-color: var(--transparent-black);
+    opacity: 0;
 }
 
-.card-overlay:hover {
-    background-color: red;
-    backdrop-filter: var(--nav-blur);
+.project-icons {
+    margin: 0 1.5rem;
+    min-height: 4rem;
+    min-width: 4rem;
+}
+
+.project-icons:hover {
+    background-color: var(--icon-hover);
 }

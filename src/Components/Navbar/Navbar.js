@@ -31,21 +31,42 @@ const Navbar = () => {
         />
 
         <ul className="desktop-nav desktop">
-          <li className="desktop-nav-links">Home</li>
-          <li className="desktop-nav-links">Skills</li>
-          <li className="desktop-nav-links">About</li>
-          <li className="desktop-nav-links">Projects</li>
-          <li className="desktop-nav-links">Contact</li>
+          <li className="desktop-nav-links">
+            <a href="#home">Home</a>
+          </li>
+          <li className="desktop-nav-links">
+            <a href="#skills">Skills</a>
+          </li>
+          <li className="desktop-nav-links">
+            <a href="#about">About</a>
+          </li>
+          <li className="desktop-nav-links">
+            <a href="#projects">Projects</a>
+          </li>
+          <li className="desktop-nav-links">
+            <a href="#contact">Contact</a>
+          </li>
         </ul>
       </div>
 
       <div className={mobileNavSliderClass}>
         <ul className="mobile-nav">
-          <li className="mobile-nav-links">Home</li>
-          <li className="mobile-nav-links">Skills</li>
-          <li className="mobile-nav-links">About</li>
-          <li className="mobile-nav-links">Projects</li>
-          <li className="mobile-nav-links">Contact</li>
+          <li className="mobile-nav-links">
+            <a href="#home">Home</a>
+          </li>
+          <li className="mobile-nav-links">
+            <a href="#skills">Skills</a>
+          </li>
+          <li className="mobile-nav-links">
+            {" "}
+            <a href="#about">About</a>
+          </li>
+          <li className="mobile-nav-links">
+            <a href="#projects">Projects</a>
+          </li>
+          <li className="mobile-nav-links">
+            <a href="#contact">Contact</a>
+          </li>
         </ul>
       </div>
     </>
