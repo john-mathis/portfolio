@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "./static/css/main.452bd5a5.css",
-    "main.js": "./static/js/main.d5d0a272.js",
+    "main.css": "./static/css/main.d481b717.css",
+    "main.js": "./static/js/main.196a33c0.js",
     "static/media/john.jpg": "./static/media/john.f1b66b2c48c80d89fa81.jpg",
+    "static/media/groupchat-landing-page.png": "./static/media/groupchat-landing-page.aa86cb242061d3824cc5.png",
     "static/media/react.png": "./static/media/react.8a6fc0a24a800d1e0f4a.png",
-    "static/media/country-project.png": "./static/media/country-project.8356376261f2451ccc25.png",
     "static/media/css.png": "./static/media/css.19c8605d6b2861f5fbe0.png",
-    "static/media/portfolio-project.png": "./static/media/portfolio-project.da19cad618b906353056.png",
+    "static/media/country-project.png": "./static/media/country-project.f3f66bc9cdc3ff27d5bd.png",
+    "static/media/jm.png": "./static/media/jm.098e221700ad2f4d0283.png",
     "static/media/nodejs.webp": "./static/media/nodejs.ab782645cef3f87968cd.webp",
+    "static/media/portfolio-project.png": "./static/media/portfolio-project.3f95ac3e9013534fd88e.png",
     "static/media/git-logo.png": "./static/media/git-logo.dcc8b2cb95d1b1261574.png",
-    "static/media/cat.webp": "./static/media/cat.a7c0d9c9ab19d58f2742.webp",
     "static/media/github.png": "./static/media/github.dfaa7e3e122a6493b633.png",
     "index.html": "./index.html",
-    "main.452bd5a5.css.map": "./static/css/main.452bd5a5.css.map",
-    "main.d5d0a272.js.map": "./static/js/main.d5d0a272.js.map"
+    "main.d481b717.css.map": "./static/css/main.d481b717.css.map",
+    "main.196a33c0.js.map": "./static/js/main.196a33c0.js.map"
   },
   "entrypoints": [
-    "static/css/main.452bd5a5.css",
-    "static/js/main.d5d0a272.js"
+    "static/css/main.d481b717.css",
+    "static/js/main.196a33c0.js"
   ]
 }
