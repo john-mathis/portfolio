@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import Logo from "../../assets/cat.webp";
+import Logo from "../../assets/jm.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navbar = () => {
@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <>
       <div className="nav-container">
-        <img src={Logo} alt="website logo"></img>
+        <img className="logo" src={Logo} alt="website logo"></img>
 
         <GiHamburgerMenu
           className="open-menu-mobile"

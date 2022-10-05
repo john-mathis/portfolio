@@ -2,6 +2,7 @@ import React from "react";
 import "..//Projects/Projects.css";
 import Country from "..//..//assets/country-project.png";
 import Portfolio from "..//..//assets/portfolio-project.png";
+import Groupchat from "..//..//assets/groupchat-landing-page.png";
 import { FiGithub } from "react-icons/fi";
 import { CgExport } from "react-icons/cg";
 
@@ -20,23 +21,35 @@ const Projects = () => {
       live: "https://mackmathis.github.io/portfolio/",
       img: Portfolio,
     },
+    {
+      name: "Groupchat ",
+      github: "https://github.com/mackmathis/react-landing-page",
+      live: "https://mackmathis.github.io/react-landing-page/",
+      img: Groupchat,
+    },
   ];
 
-  const maack = projectInfo.map((mack) => {
+  const displayProjectInfo = projectInfo.map((display) => {
     return (
-      <div className="project-card">
-        <p className="project-name">{mack.name}</p>
-        <img className="project-img" src={mack.img} />
-        <div className="card-overlay">
-          <a target="blank" href={mack.github}>
-            <FiGithub className="project-icons" />
-          </a>
+      <React.Fragment key={display.name}>
+        <div className="project-card">
+          <p className="project-name">{display.name}</p>
+          <img
+            className="project-img"
+            src={display.img}
+            alt="screenshot of projects"
+          />
+          <div className="card-overlay">
+            <a target="blank" href={display.github}>
+              <FiGithub className="project-icons" />
+            </a>
 
-          <a target="blank" href={mack.live}>
-            <CgExport className="project-icons" />
-          </a>
+            <a target="blank" href={display.live}>
+              <CgExport className="project-icons" />
+            </a>
+          </div>
         </div>
-      </div>
+      </React.Fragment>
     );
   });
 
@@ -73,7 +86,7 @@ const Projects = () => {
       <div className="projects-container" id="projects">
         <div className="max-container-width">
           <h3 className="section-title">Projects</h3>
-          <div className="container"> {maack}</div>
+          <div className="container"> {displayProjectInfo}</div>
         </div>
       </div>
     </>

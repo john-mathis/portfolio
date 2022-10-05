@@ -4,13 +4,17 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 0 1rem;
     min-width: 100%;
     position: fixed;
     background-color: var(--transparent-black);
     z-index: 100;
     backdrop-filter: var(--nav-blur);
 
+}
+
+.logo {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(264deg) brightness(102%) contrast(105%);
 }
 
 .nav-container img {
@@ -98,8 +102,15 @@
     min-width: 30rem;
 }
 
+
+
 .desktop-nav-links a {
     color: var(--white);
+    transition: .6s ease;
+}
+
+.desktop-nav-links a:hover {
+    color: var(--red);
 }
 
 
