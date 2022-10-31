@@ -19,12 +19,10 @@
 .project-card {
     position: relative;
     max-width: 20rem;
-    cursor: pointer;
 }
 
 .project-name {
     text-transform: uppercase;
-
     margin-bottom: 1rem;
 }
 

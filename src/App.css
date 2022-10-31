@@ -3,7 +3,7 @@
 
 :root {
   --white: #fff;
-  --icon-hover: rgba(163, 163, 163, 0.466);
+  --icon-hover: rgba(31, 31, 31, 0.466);
   --black: #121111;
   --transparent-black: #12111193;
   --dark-grey: #383838;
@@ -38,7 +38,7 @@ body {
 
 /* Global Styles */
 .max-container-width {
-  max-width: 85%;
+  max-width: 90%;
   margin: auto;
   padding: 4rem 1rem;
 }

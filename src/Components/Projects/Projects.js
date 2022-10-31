@@ -3,6 +3,7 @@ import "..//Projects/Projects.css";
 import Country from "..//..//assets/country-project.png";
 import Portfolio from "..//..//assets/portfolio-project.png";
 import Groupchat from "..//..//assets/groupchat-landing-page.png";
+import Mastercraft from "..//..//assets/mastercraft-project.png";
 import { FiGithub } from "react-icons/fi";
 import { CgExport } from "react-icons/cg";
 
@@ -26,6 +27,13 @@ const Projects = () => {
       github: "https://github.com/mackmathis/react-landing-page",
       live: "https://mackmathis.github.io/react-landing-page/",
       img: Groupchat,
+    },
+
+    {
+      name: "Mastercraft ",
+      github: "https://github.com/mackmathis/crowdfunding-product-page",
+      live: "https://mackmathis.github.io/crowdfunding-product-page/",
+      img: Mastercraft,
     },
   ];
 
