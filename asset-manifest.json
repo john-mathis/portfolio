@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "./static/css/main.45e3ebe7.css",
-    "main.js": "./static/js/main.cbcd32ed.js",
+    "main.css": "./static/css/main.8e0fa0dd.css",
+    "main.js": "./static/js/main.d11719b7.js",
     "static/media/john.jpg": "./static/media/john.f1b66b2c48c80d89fa81.jpg",
     "static/media/mastercraft-project.png": "./static/media/mastercraft-project.c97ce556e9d006f11e70.png",
     "static/media/groupchat-landing-page.png": "./static/media/groupchat-landing-page.aa86cb242061d3824cc5.png",
     "static/media/react.png": "./static/media/react.8a6fc0a24a800d1e0f4a.png",
     "static/media/css.png": "./static/media/css.19c8605d6b2861f5fbe0.png",
+    "static/media/planets-project.png": "./static/media/planets-project.8d4369b047160189bf5b.png",
     "static/media/country-project.png": "./static/media/country-project.f3f66bc9cdc3ff27d5bd.png",
     "static/media/jm.png": "./static/media/jm.098e221700ad2f4d0283.png",
     "static/media/nodejs.webp": "./static/media/nodejs.ab782645cef3f87968cd.webp",
@@ -14,11 +15,11 @@
     "static/media/git-logo.png": "./static/media/git-logo.dcc8b2cb95d1b1261574.png",
     "static/media/github.png": "./static/media/github.dfaa7e3e122a6493b633.png",
     "index.html": "./index.html",
-    "main.45e3ebe7.css.map": "./static/css/main.45e3ebe7.css.map",
-    "main.cbcd32ed.js.map": "./static/js/main.cbcd32ed.js.map"
+    "main.8e0fa0dd.css.map": "./static/css/main.8e0fa0dd.css.map",
+    "main.d11719b7.js.map": "./static/js/main.d11719b7.js.map"
   },
   "entrypoints": [
-    "static/css/main.45e3ebe7.css",
-    "static/js/main.cbcd32ed.js"
+    "static/css/main.8e0fa0dd.css",
+    "static/js/main.d11719b7.js"
   ]
 }
