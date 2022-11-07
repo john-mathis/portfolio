@@ -8,9 +8,9 @@
 
 .skills-icons-container {
     display: grid;
+    position: relative;
     place-items: center;
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-    /* grid-template-rows: repeat(3, 1fr); */
     gap: 4rem;
     margin: 4rem auto;
     max-width: 45rem;
@@ -26,11 +26,12 @@
 
 
 .skills-icon {
-    max-width: 5rem;
+    max-width: 4rem;
+    max-height: 6.5rem;
 }
 
 .skills-icon:hover {
-    min-width: 5.5rem;
+    transform: scale(1.1);
 }
 
 @media screen and (min-width:450px) {
@@ -49,4 +50,10 @@
     .skills-icon:hover {
         min-width: 7rem;
     }
+}
+
+.skills-description {
+    position: absolute;
+    left: 0;
+    right: 0;
 }

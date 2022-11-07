@@ -36,6 +36,7 @@
     max-width: 16rem;
     margin-top: 2rem;
     max-height: 25rem;
+    box-shadow: 1px 1px 4px 4px var(--black);
 }
 
 
