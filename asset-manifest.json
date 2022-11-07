@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/johnmathis.net/static/css/main.91baed31.css",
-    "main.js": "/johnmathis.net/static/js/main.efa77c6b.js",
-    "static/media/john.jpg": "/johnmathis.net/static/media/john.f1b66b2c48c80d89fa81.jpg",
-    "static/media/mastercraft-project.png": "/johnmathis.net/static/media/mastercraft-project.c97ce556e9d006f11e70.png",
-    "static/media/groupchat-landing-page.png": "/johnmathis.net/static/media/groupchat-landing-page.aa86cb242061d3824cc5.png",
-    "static/media/react.png": "/johnmathis.net/static/media/react.8a6fc0a24a800d1e0f4a.png",
-    "static/media/css.png": "/johnmathis.net/static/media/css.19c8605d6b2861f5fbe0.png",
-    "static/media/country-project.png": "/johnmathis.net/static/media/country-project.f3f66bc9cdc3ff27d5bd.png",
-    "static/media/planets-project.png": "/johnmathis.net/static/media/planets-project.5d4e306dc7dd24605d40.png",
-    "static/media/jm.png": "/johnmathis.net/static/media/jm.098e221700ad2f4d0283.png",
-    "static/media/nodejs.webp": "/johnmathis.net/static/media/nodejs.ab782645cef3f87968cd.webp",
-    "static/media/portfolio-project.png": "/johnmathis.net/static/media/portfolio-project.3f95ac3e9013534fd88e.png",
-    "static/media/git-logo.png": "/johnmathis.net/static/media/git-logo.dcc8b2cb95d1b1261574.png",
-    "static/media/github.png": "/johnmathis.net/static/media/github.dfaa7e3e122a6493b633.png",
-    "index.html": "/johnmathis.net/index.html",
-    "main.91baed31.css.map": "/johnmathis.net/static/css/main.91baed31.css.map",
-    "main.efa77c6b.js.map": "/johnmathis.net/static/js/main.efa77c6b.js.map"
+    "main.css": "./static/css/main.91baed31.css",
+    "main.js": "./static/js/main.94f85b57.js",
+    "static/media/john.jpg": "./static/media/john.f1b66b2c48c80d89fa81.jpg",
+    "static/media/mastercraft-project.png": "./static/media/mastercraft-project.c97ce556e9d006f11e70.png",
+    "static/media/groupchat-landing-page.png": "./static/media/groupchat-landing-page.aa86cb242061d3824cc5.png",
+    "static/media/react.png": "./static/media/react.8a6fc0a24a800d1e0f4a.png",
+    "static/media/css.png": "./static/media/css.19c8605d6b2861f5fbe0.png",
+    "static/media/country-project.png": "./static/media/country-project.f3f66bc9cdc3ff27d5bd.png",
+    "static/media/planets-project.png": "./static/media/planets-project.5d4e306dc7dd24605d40.png",
+    "static/media/jm.png": "./static/media/jm.098e221700ad2f4d0283.png",
+    "static/media/nodejs.webp": "./static/media/nodejs.ab782645cef3f87968cd.webp",
+    "static/media/portfolio-project.png": "./static/media/portfolio-project.3f95ac3e9013534fd88e.png",
+    "static/media/git-logo.png": "./static/media/git-logo.dcc8b2cb95d1b1261574.png",
+    "static/media/github.png": "./static/media/github.dfaa7e3e122a6493b633.png",
+    "index.html": "./index.html",
+    "main.91baed31.css.map": "./static/css/main.91baed31.css.map",
+    "main.94f85b57.js.map": "./static/js/main.94f85b57.js.map"
   },
   "entrypoints": [
     "static/css/main.91baed31.css",
-    "static/js/main.efa77c6b.js"
+    "static/js/main.94f85b57.js"
   ]
 }
