@@ -23,7 +23,7 @@ const AboutMe = () => {
               process of producing clean, effecient, and innovative solutions.
               I'm looking foward to being surrounded with like minded people who
               will challenge, my ideas and push me to grow as a person and
-              Developer!
+              developer!
             </p>
 
             <a href="/" className="download-cv">

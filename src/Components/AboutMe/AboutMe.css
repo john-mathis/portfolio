@@ -104,5 +104,8 @@
     padding: .7rem .5rem;
     cursor: pointer;
     position: relative;
+}
 
+.download-cv:hover {
+    transform: scale(1.2);
 }
