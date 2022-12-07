@@ -5,11 +5,32 @@ import Planets from "..//..//assets/planets-project.png";
 import Portfolio from "..//..//assets/portfolio-project.png";
 import Groupchat from "..//..//assets/groupchat-landing-page.png";
 import Mastercraft from "..//..//assets/mastercraft-project.png";
+import ReactDev from "..//..//assets/dev-portfolio.png";
 import { FiGithub } from "react-icons/fi";
 import { CgExport } from "react-icons/cg";
 
 const Projects = () => {
   const projectInfo = [
+    {
+      name: "Planets",
+      github: "https://github.com/mackmathis/react-planets",
+      live: "https://mackmathis.github.io/react-planets/",
+      img: Planets,
+    },
+    {
+      name: "React Dev Portfolio",
+      github: "https://github.com/mackmathis/React-dev-portfolio",
+      live: "https://mackmathis.github.io/React-dev-portfolio/",
+      img: ReactDev,
+    },
+
+    {
+      name: "John Mathis Portfolio ",
+      github: "https://github.com/mackmathis/portfolio",
+      live: "https://mackmathis.github.io/portfolio/",
+      img: Portfolio,
+    },
+
     {
       name: "Rest Countries API",
       github: "https://github.com/mackmathis/Country-API",
@@ -17,19 +38,6 @@ const Projects = () => {
       img: Country,
     },
 
-    {
-      name: "Planets",
-      github: "https://github.com/mackmathis/react-planets",
-      live: "https://mackmathis.github.io/react-planets/",
-      img: Planets,
-    },
-
-    {
-      name: "Portfolio ",
-      github: "https://github.com/mackmathis/portfolio",
-      live: "https://mackmathis.github.io/portfolio/",
-      img: Portfolio,
-    },
     {
       name: "Groupchat ",
       github: "https://github.com/mackmathis/react-landing-page",

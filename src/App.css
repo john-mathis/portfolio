@@ -40,13 +40,13 @@ body {
 .max-container-width {
   max-width: 90%;
   margin: auto;
-  padding: 4rem 1rem;
+  padding: 2rem 1rem;
 }
 
 @media screen and (min-width:1200px) {
 
   .max-container-width {
-    max-width: 80%;
+    max-width: 55%;
 
   }
 }

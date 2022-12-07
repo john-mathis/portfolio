@@ -18,11 +18,11 @@ const AboutMe = () => {
           <div className="about-text-container">
             <h3 className="section-title name">About John</h3>
             <p className="about-description">
-              An enthusiastic front-end Web Developer who finds pleasure in
-              learning new skills to solve complex problems. I highly value the
-              process of producing clean, effecient, and innovative solutions.
-              I'm looking foward to being surrounded with like minded people who
-              will challenge, my ideas and push me to grow as a person and
+              An enthusiastic front-end developer who finds pleasure in learning
+              new skills to solve complex problems. I highly value the process
+              of producing clean, effecient, and innovative solutions. I'm
+              looking foward to being surrounded with like minded people who
+              will challenge my ideas and push me to grow as a person and
               developer!
             </p>
 

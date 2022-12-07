@@ -16,18 +16,28 @@
     opacity: 1;
 }
 
-.project-card {
-    position: relative;
-    max-width: 20rem;
-}
+
 
 .project-name {
     text-transform: uppercase;
     margin-bottom: 1rem;
 }
 
+.project-card {
+    position: relative;
+    max-width: 20rem;
+}
+
 .project-card a {
     color: var(--white);
+}
+
+.project-img {
+    min-height: 13rem;
+    max-height: 13rem;
+    min-width: 17rem;
+    max-width: 17rem;
+    border-radius: 10px;
 }
 
 
