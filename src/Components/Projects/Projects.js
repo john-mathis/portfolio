@@ -1,59 +1,11 @@
 import React from "react";
 import "..//Projects/Projects.css";
-import Country from "..//..//assets/country-project.png";
-import Planets from "..//..//assets/planets-project.png";
-import Portfolio from "..//..//assets/portfolio-project.png";
-import Groupchat from "..//..//assets/groupchat-landing-page.png";
-import Mastercraft from "..//..//assets/mastercraft-project.png";
-import ReactDev from "..//..//assets/dev-portfolio.png";
 import { FiGithub } from "react-icons/fi";
 import { CgExport } from "react-icons/cg";
+import { ProjectData } from "../ProjectData/ProjectData";
 
 const Projects = () => {
-  const projectInfo = [
-    {
-      name: "Planets",
-      github: "https://github.com/mackmathis/react-planets",
-      live: "https://mackmathis.github.io/react-planets/",
-      img: Planets,
-    },
-    {
-      name: "React Dev Portfolio",
-      github: "https://github.com/mackmathis/React-dev-portfolio",
-      live: "https://mackmathis.github.io/React-dev-portfolio/",
-      img: ReactDev,
-    },
-
-    {
-      name: "John Mathis Portfolio ",
-      github: "https://github.com/mackmathis/portfolio",
-      live: "https://mackmathis.github.io/portfolio/",
-      img: Portfolio,
-    },
-
-    {
-      name: "Rest Countries API",
-      github: "https://github.com/mackmathis/Country-API",
-      live: "https://mackmathis.github.io/Country-API/",
-      img: Country,
-    },
-
-    {
-      name: "Groupchat ",
-      github: "https://github.com/mackmathis/react-landing-page",
-      live: "https://mackmathis.github.io/react-landing-page/",
-      img: Groupchat,
-    },
-
-    {
-      name: "Mastercraft ",
-      github: "https://github.com/mackmathis/crowdfunding-product-page",
-      live: "https://mackmathis.github.io/crowdfunding-product-page/",
-      img: Mastercraft,
-    },
-  ];
-
-  const displayProjectInfo = projectInfo.map((display) => {
+  const displayProjectInfo = ProjectData.map((display) => {
     return (
       <React.Fragment key={display.name}>
         <div className="project-card">
@@ -68,7 +20,7 @@ const Projects = () => {
               <FiGithub className="project-icons" />
             </a>
 
-            <a target="blank" href={display.live}>
+            <a target="_blank" href={display.live} rel="noreferrer">
               <CgExport className="project-icons" />
             </a>
           </div>
@@ -79,7 +31,7 @@ const Projects = () => {
 
   return (
     <>
-      <div className="projects-container" id="projects">
+      <div className="projects-container">
         <div className="max-container-width">
           <h3 className="section-title">Projects</h3>
           <div className="container"> {displayProjectInfo}</div>

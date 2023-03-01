@@ -1,14 +1,19 @@
 /* Main component container */
 .about-container {
     background-color: var(--black);
+    min-height: 40vh;
 }
 
+@media screen and (min-width:1024px) {
+    .about-container {
+        min-height: 65vh;
+    }
+}
 
 /* Max width container */
 .about {
     display: flex;
     flex-direction: column;
-    /* margin: auto; */
 }
 
 
@@ -33,18 +38,11 @@
 }
 
 .john-img {
-    max-width: 16rem;
+    max-width: 20rem;
     margin-top: 2rem;
     max-height: 25rem;
+    border-radius: var(--border-radius);
     box-shadow: 1px 1px 4px 4px var(--black);
-}
-
-
-@media screen and (min-width:548px) {
-    .john-img {
-        max-width: 18rem;
-
-    }
 }
 
 @media screen and (min-width:1200px) {
@@ -65,11 +63,17 @@
         margin-right: 2rem;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
         order: 1;
     }
 }
 
+
+@media screen and (min-width:1024px) {
+    .about-text-container {
+        margin-bottom: 0;
+        justify-content: space-evenly;
+    }
+}
 
 /* Section title */
 .name {
@@ -83,14 +87,18 @@
     max-width: 40rem;
     line-height: 1.5;
     margin-bottom: 2rem;
+    height: fit-content;
 }
 
 
 @media screen and (min-width:780px) {
     .about-description {
-        min-height: 10rem;
+        min-height: 12rem;
         line-height: 2;
         min-width: 15rem;
+        /* justify-content: center; */
+        /* margin-bottom: 0; */
+        /* margin: auto; */
     }
 }
 

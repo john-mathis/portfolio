@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap');
 
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 :root {
   --white: #fff;
   --icon-hover: rgba(31, 31, 31, 0.466);
@@ -11,8 +16,8 @@
   --transparent-red: #ff454580;
   --nav-blur: blur(4px);
   --text-underline-spacing: 8px;
+  --border-radius: 10px;
 }
-
 
 
 * {
@@ -32,10 +37,6 @@ body {
 }
 
 
-
-
-
-
 /* Global Styles */
 .max-container-width {
   max-width: 90%;
@@ -44,13 +45,10 @@ body {
 }
 
 @media screen and (min-width:1200px) {
-
   .max-container-width {
-    max-width: 55%;
-
+    max-width: 65rem;
   }
 }
-
 
 .section-title {
   font-size: 2rem;

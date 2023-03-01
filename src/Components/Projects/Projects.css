@@ -37,7 +37,7 @@
     max-height: 13rem;
     min-width: 17rem;
     max-width: 17rem;
-    border-radius: 10px;
+    border-radius: var(--border-radius)
 }
 
 
