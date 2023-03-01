@@ -5,16 +5,16 @@ import John from "../../assets/john.jpg";
 const AboutMe = () => {
   return (
     <>
-      <div className="about-container">
-        <div className="max-container-width about">
-          <div className="about-img-container">
+      <div className="min-h-140 lg: min-h-260">
+        <div className="max-container-width flex flex-col md:flex-row">
+          <div className="flex m-auto	md:order-2">
             <img
               alt="john mathis using a macbook"
               src={John}
-              className="john-img"
+              className="max-w-xs mt-8 max-h-100 rounded-lg              "
             ></img>
           </div>
-          <div className="about-text-container">
+          <div className="text-center mb-8 md:text-left md:mr-8 md:flex md:flex-col md:order-1">
             <h3 className="section-title name bold">Hi, I'm John.</h3>
             <p className="about-description">
               An enthusiastic software developer and lifelong learner. I highly
