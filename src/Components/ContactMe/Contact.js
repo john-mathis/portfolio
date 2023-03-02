@@ -13,7 +13,7 @@ const Contact = () => {
       <div className="contact-container">
         <div className="max-container-width">
           <h3 className="section-title">Get In Touch</h3>
-          <div className="icon-container">
+          <div className="flex flex-row justify-around items-center max-w-[70%] my-3 mx-auto">
             <a
               className="contact-link"
               href="https://github.com/john-mathis"

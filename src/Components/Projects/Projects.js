@@ -8,14 +8,14 @@ const Projects = () => {
   const displayProjectInfo = ProjectData.map((display) => {
     return (
       <React.Fragment key={display.name}>
-        <div className="project-card">
-          <p className="project-name">{display.name}</p>
+        <div className="relative max-w-xs project-card">
+          <p className="uppercase mb-4">{display.name}</p>
           <img
-            className="project-img"
+            className="min-h-[13rem] max-h-[13rem] min-w-[17rem] max-w-[17rem] rounded-lg"
             src={display.img}
             alt="screenshot of projects"
           />
-          <div className="card-overlay">
+          <div className="card-overlay flex justify-center items-center absolute top-10 left-0 right-0 bottom-0 opacity-0 bg-[var(--transparent-black)] ease-in duration-300">
             <a target="blank" href={display.github}>
               <FiGithub className="project-icons" />
             </a>
@@ -31,10 +31,12 @@ const Projects = () => {
 
   return (
     <>
-      <div className="projects-container">
+      <div className="bg-[var(--dark-grey)]">
         <div className="max-container-width">
           <h3 className="section-title">Projects</h3>
-          <div className="container"> {displayProjectInfo}</div>
+          <div className="relative grid place-items-center grid-cols-1 my-4 mx-auto gap-16 max-w-5xl md:grid-cols-2 lg:grid-cols-3">
+            {displayProjectInfo}
+          </div>
         </div>
       </div>
     </>
