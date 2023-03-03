@@ -10,11 +10,14 @@ const AboutMe = () => {
             <img
               alt="john mathis using a macbook"
               src={John}
-              className="max-w-xs mt-8 max-h-100 rounded-lg              "
+              className="max-w-[15rem]
+              max-h-[15rem]mt-8 rounded-lg  sm:max-w-xs sm:max-h-100              "
             ></img>
           </div>
           <div className="text-center mb-8 md:text-left md:mr-8 md:flex md:flex-col md:order-1 lg:mb-0 lg:justify-evenly ">
-            <h3 className="section-title font-normal mb-4">Hi, I'm John.</h3>
+            <h3 className="text-3xl md:text-4xl my-8 underline underline-offset-[var(--text-underline-spacing)] font-normal mb-4">
+              Hi, I'm John.
+            </h3>
             <p className="text-base w-150 h-fit mb-8 md:text-lg md:min-h-48 md:w-84 lg:text-xl lg:max-w-[90%] xl:max-w-[85%]	">
               An enthusiastic software developer and lifelong learner. I highly
               value the process of producing clean, effecient, and innovative

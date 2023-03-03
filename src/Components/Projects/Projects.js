@@ -17,11 +17,11 @@ const Projects = () => {
           />
           <div className="card-overlay flex justify-center items-center absolute top-10 left-0 right-0 bottom-0 opacity-0 bg-[var(--transparent-black)] ease-in duration-300">
             <a target="blank" href={display.github}>
-              <FiGithub className="project-icons" />
+              <FiGithub className="w-16 h-16 mx-6 hover:bg-[var(--icon-hover)]" />
             </a>
 
             <a target="_blank" href={display.live} rel="noreferrer">
-              <CgExport className="project-icons" />
+              <CgExport className="w-16 h-16 mx-6 hover:bg-[var(--icon-hover)]" />
             </a>
           </div>
         </div>
@@ -33,7 +33,9 @@ const Projects = () => {
     <>
       <div className="bg-[var(--dark-grey)]">
         <div className="max-container-width">
-          <h3 className="section-title">Projects</h3>
+          <h3 className="text-3xl md:text-4xl my-8 underline underline-offset-[var(--text-underline-spacing)]">
+            Projects
+          </h3>
           <div className="relative grid place-items-center grid-cols-1 my-4 mx-auto gap-16 max-w-5xl md:grid-cols-2 lg:grid-cols-3">
             {displayProjectInfo}
           </div>
