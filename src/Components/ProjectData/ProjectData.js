@@ -23,16 +23,15 @@ export const ProjectData = [
     github: "https://github.com/john-mathis/portfolio",
     live: "https://john-mathis.github.io/portfolio/",
     img: Portfolio,
-    description: "Fully Responsive site created with ReactJS and TailwindCSS ",
+    description: "Created with ReactJS and TailwindCSS ",
   },
 
   {
-    name: "Planets",
+    name: "Planet Facts",
     github: "https://github.com/john-mathis/react-planets",
     live: "https://john-mathis.github.io/react-planets/",
     img: Planets,
-    description:
-      "Created with HTML, CSS, and ReactJS with the use of React Hooks.",
+    description: "Created with HTML, CSS, ReactJS, and the use of React Hooks.",
   },
   {
     name: "Groupchat ",
@@ -40,6 +39,6 @@ export const ProjectData = [
     live: "https://john-mathis.github.io/react-landing-page/",
     img: Groupchat,
     description:
-      "Utilized a sketch file to replicate the design, built with HTML, CSS and ReactJS",
+      "Design replicated from a sketch file, built with HTML, CSS and ReactJS",
   },
 ];

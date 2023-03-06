@@ -6,7 +6,8 @@
 
 :root {
   --white: #fff;
-  --icon-hover: rgba(31, 31, 31, 0.466);
+  --icon-hover: rgba(21, 21, 21);
+  --icon-light-hover: rgba(120, 120, 120, 0.9);
   --black: #121111;
   --transparent-black: #12111193;
   --dark-grey: #383838;

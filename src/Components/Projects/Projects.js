@@ -16,15 +16,19 @@ const Projects = () => {
             alt="screenshot of projects"
           />
           <div className="card-overlay flex flex-col justify-center items-center absolute top-10 left-0 right-0 bottom-0 opacity-0 bg-[var(--transparent-black)] ease-in duration-300">
-            <div className="text-center underline">{display.name}</div>
-            <div className="text-center mb-4">{display.description}</div>
+            <div className="text-center font-bold underline">
+              {display.name}
+            </div>
+            <div className="text-center font-bold mb-4 px-3 text-base	my-2">
+              {display.description}
+            </div>
             <div className="flex flex-row">
               <a target="blank" href={display.github}>
-                <FiGithub className="w-16 h-16 mx-6 hover:bg-[var(--icon-hover)]" />
+                <FiGithub className="w-10 h-16 mx-6 hover:bg-[var(--icon-light-hover)]" />
               </a>
 
               <a target="_blank" href={display.live} rel="noreferrer">
-                <CgExport className="w-16 h-16 mx-6 hover:bg-[var(--icon-hover)]" />
+                <CgExport className="w-10 h-16 mx-6 hover:bg-[var(--icon-light-hover)]" />
               </a>
             </div>
           </div>
