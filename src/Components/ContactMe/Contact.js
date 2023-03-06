@@ -20,7 +20,7 @@ const Contact = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <AiOutlineGithub className="w-8 h-12 cursor-pointer my-0 mx-4 md:w-16 md:h-20 hover:bg-[var(--dark-grey)] hover:p-1	" />
+              <AiOutlineGithub className="w-8 h-12 cursor-pointer my-0 mx-4 md:w-16 md:h-20 hover:bg-[var(--dark-grey)]" />
             </a>
 
             <a
@@ -28,10 +28,10 @@ const Contact = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <AiFillLinkedin className="w-8 h-12 cursor-pointer my-0 mx-4 md:w-16 md:h-20 hover:bg-[var(--dark-grey)] hover:p-1	" />
+              <AiFillLinkedin className="w-8 h-12 cursor-pointer my-0 mx-4 md:w-16 md:h-20 hover:bg-[var(--dark-grey)]" />
             </a>
             <AiOutlineMail
-              className="w-8 h-12 cursor-pointer my-0 mx-4 md:w-16 md:h-20 hover:bg-[var(--dark-grey)] hover:p-1"
+              className="w-8 h-12 cursor-pointer my-0 mx-4 md:w-16 md:h-20 hover:bg-[var(--dark-grey)]"
               onClick={sendNewEmail}
               target="_blank"
               rel="noreferrer"

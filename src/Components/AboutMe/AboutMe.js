@@ -4,7 +4,7 @@ import John from "../../assets/john.jpg";
 const AboutMe = () => {
   return (
     <>
-      <div className="min-h-140 lg: min-h-260">
+      <div className="min-h-140 lg: min-h-260 py-12">
         <div className="max-container-width flex flex-col md:flex-row">
           <div className="flex m-auto	md:order-2">
             <img
