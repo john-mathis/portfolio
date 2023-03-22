@@ -1,6 +1,6 @@
 import Planets from "..//..//assets/planets-project.png";
 import Portfolio from "..//..//assets/portfolio-project.png";
-import Groupchat from "..//..//assets/groupchat-landing-page.png";
+import Barbershop from "..//..//assets/barbershop-project.jpg";
 
 // name: "React Dev Portfolio",
 // github: "https://github.com/john-mathis/React-dev-portfolio",
@@ -19,6 +19,14 @@ import Groupchat from "..//..//assets/groupchat-landing-page.png";
 
 export const ProjectData = [
   {
+    name: "Prime Barbershop ",
+    github: "https://github.com/john-mathis/Barbershop",
+    live: "https://barbershop-omega.vercel.app/",
+    img: Barbershop,
+    description:
+      "Created using Next.js, TypeScript, and TailwindCSS. Freelance project done for a local barber.",
+  },
+  {
     name: "John Mathis Portfolio ",
     github: "https://github.com/john-mathis/portfolio",
     live: "https://john-mathis.github.io/portfolio/",
@@ -32,13 +40,5 @@ export const ProjectData = [
     live: "https://john-mathis.github.io/react-planets/",
     img: Planets,
     description: "Created with HTML, CSS, ReactJS, and the use of React Hooks.",
-  },
-  {
-    name: "Groupchat ",
-    github: "https://github.com/john-mathis/react-landing-page",
-    live: "https://john-mathis.github.io/react-landing-page/",
-    img: Groupchat,
-    description:
-      "Design replicated from a sketch file, built with HTML, CSS and ReactJS",
   },
 ];
