@@ -1,5 +1,5 @@
 import Planets from "..//..//assets/planets-project.png";
-import Portfolio from "..//..//assets/portfolio-project.png";
+import NBA from "..//..//assets/nba-project.png";
 import Barbershop from "..//..//assets/barbershop-project.jpg";
 
 // name: "React Dev Portfolio",
@@ -19,19 +19,18 @@ import Barbershop from "..//..//assets/barbershop-project.jpg";
 
 export const ProjectData = [
   {
+    name: "NBA STATS ",
+    github: "https://github.com/john-mathis/portfolio",
+    live: "https://john-mathis.github.io/portfolio/",
+    img: NBA,
+    description: "Created with MongoDB, Express, ReactJS, and NodeJS. ",
+  },
+  {
     name: "Prime Barbershop ",
     github: "https://github.com/john-mathis/Barbershop",
     live: "https://barbershop-omega.vercel.app/",
     img: Barbershop,
-    description:
-      "Created using Next.js, TypeScript, and TailwindCSS. Freelance project done for a local barber.",
-  },
-  {
-    name: "John Mathis Portfolio ",
-    github: "https://github.com/john-mathis/portfolio",
-    live: "https://john-mathis.github.io/portfolio/",
-    img: Portfolio,
-    description: "Created with ReactJS and TailwindCSS ",
+    description: "Created using Next.js, TypeScript, and TailwindCSS.",
   },
 
   {
