@@ -1,4 +1,3 @@
-import Planets from "..//..//assets/planets-project.png";
 import NBA from "..//..//assets/nba-project.png";
 import Barbershop from "..//..//assets/barbershop-project.jpg";
 
@@ -16,13 +15,5 @@ export const ProjectData = [
     live: "https://barbershop-omega.vercel.app/",
     img: Barbershop,
     description: "Created using Next.js, TypeScript, and TailwindCSS.",
-  },
-
-  {
-    name: "Planet Facts",
-    github: "https://github.com/john-mathis/react-planets",
-    live: "https://john-mathis.github.io/react-planets/",
-    img: Planets,
-    description: "Created with HTML, CSS, ReactJS, and the use of React Hooks.",
   },
 ];

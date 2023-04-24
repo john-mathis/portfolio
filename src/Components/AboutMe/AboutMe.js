@@ -1,5 +1,6 @@
 import React from "react";
 import John from "../../assets/john.jpg";
+import Resume from "../../assets/John_Mathis_Resume.pdf";
 
 const AboutMe = () => {
   return (
@@ -29,7 +30,8 @@ const AboutMe = () => {
             </p>
 
             <a
-              href="/"
+              href={Resume}
+              download="John Mathis Resume"
               className="hover:scale-125 no-underline bg-[var(--red)] w-32 text-center text-white	p-3	relative"
             >
               Download CV
