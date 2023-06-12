@@ -38,7 +38,7 @@ const Contact = () => {
             />
           </div>
           <p className="uppercase mt-8 text-center tracking-[1px]">
-            © John Mathis, 2022
+            © John Mathis, 2023
           </p>
         </div>
       </div>
