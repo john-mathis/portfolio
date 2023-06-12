@@ -24,7 +24,13 @@ const Projects = () => {
             </div>
             <div className="flex flex-row">
               <a target="blank" href={display.github}>
-                <FiGithub className="w-10 h-16 mx-6 hover:bg-[var(--icon-light-hover)]" />
+                <FiGithub
+                  className={` ${
+                    display.github
+                      ? "w-10 h-16 mx-6 hover:bg-[var(--icon-light-hover)]"
+                      : "hidden"
+                  } `}
+                />
               </a>
 
               <a target="_blank" href={display.live} rel="noreferrer">
@@ -44,7 +50,7 @@ const Projects = () => {
           <h3 className="text-3xl md:text-4xl my-8 underline underline-offset-[var(--text-underline-spacing)]">
             Projects
           </h3>
-          <div className="relative grid place-items-center grid-cols-1 my-4 mx-auto gap-16 max-w-5xl md:grid-cols-2 lg:grid-cols-2">
+          <div className="relative grid place-items-center grid-cols-1 my-4 mx-auto gap-16 max-w-5xl md:grid-cols-2 lg:grid-cols-3">
             {displayProjectInfo}
           </div>
         </div>
