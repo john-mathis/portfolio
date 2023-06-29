@@ -20,13 +20,13 @@ const AboutMe = () => {
               Hi, I'm John.
             </h3>
             <p className="text-base w-150 h-fit mb-8 md:text-lg md:min-h-48 md:w-84 lg:text-xl lg:max-w-[90%] xl:max-w-[85%]	">
-              An enthusiastic software developer and lifelong learner. I highly
-              value the process of producing clean, effecient, and innovative
-              solutions! I am motivated by the opportunity that software
-              provides to positively impact the life of an individual, and the
-              world as a whole. I enjoy development because of the satisfaction
-              that comes from overcoming challenges, and acquiring new skills to
-              solve complex problems.
+              As a passionate software developer and perpetual learner, I hold a
+              deep appreciation for the creation of clean, efficient, and
+              cutting-edge solutions. I am driven by the potential of software
+              to make a positive impact on individuals and society at large. The
+              process of overcoming challenges and acquiring new skills to solve
+              intricate problems brings me immense satisfaction in my
+              development journey.
             </p>
 
             <a

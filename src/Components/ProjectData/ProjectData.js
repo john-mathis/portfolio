@@ -8,7 +8,8 @@ export const ProjectData = [
     github: "https://github.com/john-mathis/NBA",
     live: "https://the-nba-stats.netlify.app/",
     img: NBA,
-    description: "Created with MongoDB, Express, ReactJS, and NodeJS. ",
+    description:
+      "Created with MongoDB, Express, ReactJS, and NodeJS. -----------NOTE: Login/Signup times are delayed due to server adjustment. ",
   },
   {
     name: "Prime Barbershop ",
