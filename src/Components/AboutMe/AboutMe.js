@@ -5,7 +5,7 @@ import Resume from "../../assets/John_Mathis_Resume.pdf";
 const AboutMe = () => {
   return (
     <>
-      <div className="min-h-140 lg: min-h-260 py-12">
+      <div className="bg-[var(--dark-grey)] min-h-140 lg: min-h-260 py-12">
         <div className="max-container-width flex flex-col lg:flex-row">
           <div className="flex m-auto	lg:order-2">
             <img
