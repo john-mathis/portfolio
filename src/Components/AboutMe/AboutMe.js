@@ -29,13 +29,13 @@ const AboutMe = () => {
               development journey.
             </p>
 
-            <a
+            {/* <a
               href={Resume}
               download="John Mathis Resume"
               className="hover:scale-125 no-underline bg-[var(--red)] w-32 text-center text-white	p-3	relative"
             >
               Download CV
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
