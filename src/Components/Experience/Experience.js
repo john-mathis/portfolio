@@ -8,16 +8,18 @@ const Experience = () => {
         <h3 className="text-3xl md:text-4xl my-8 underline underline-offset-[var(--text-underline-spacing)]">
           Experience
         </h3>
-        <div className="flex flex-col border rounded-xl p-8">
+
+
+        <div className="flex flex-col md:flex-row  border rounded-xl p-8">
           <div>
             {" "}
             <img
               src={ACN}
               alt="Experience placeholder"
-              className="rounded-lg h-[10rem] m-auto"
+              className="rounded-lg h-[8rem] m-auto"
             />
           </div>
-          <div className="m-auto">
+          <div className="m-auto text-center md:text-left ">
             {" "}
             <p className="text-2xl">
               Application Devleoper at{" "}
@@ -28,9 +30,20 @@ const Experience = () => {
                 Accenture
               </a>
             </p>
+            <p>Full-stack Development </p>
             <p>Skills:Typescript, React,js, Node.js, Express </p>
+
+            <div className="text-center md:text-left m-auto">
+            <p>Jun. 2023 - Present <span>Full time</span></p>
+            
           </div>
         </div>
+          </div>
+
+          
+
+
+
       </div>
     </div>
   );
