@@ -1,6 +1,5 @@
-import React from "react";
 import John from "../../assets/john.jpg";
-import Resume from "../../assets/John_Mathis_Resume.pdf";
+
 
 const AboutMe = () => {
   return (
