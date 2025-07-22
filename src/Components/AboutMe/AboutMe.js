@@ -35,8 +35,6 @@ const AboutMe = () => {
             Linkedin
           </a>
           </div>
-
-
         </div>
       </div>
     </section>
