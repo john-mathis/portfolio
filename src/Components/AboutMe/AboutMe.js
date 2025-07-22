@@ -23,15 +23,18 @@ const AboutMe = () => {
           </h2>
         
           <div className="flex m-auto space-x-4 mt-4 justify-center items-center lg:justify-start">
-            <a className="inline-block bg-[white] border text-black text-sm font-medium px-6 py-3 rounded-md hover:scale-105 transition-transform" href="https://github.com/johnmathis" target="_blank" rel="noopener noreferrer"> Github
+            <a className="inline-block bg-[white] border text-black text-sm font-medium px-6 py-3 rounded-md hover:scale-105 transition-transform" href="https://github.com/john-mathis" target="_blank" rel="noopener noreferrer"> Github
             </a>
             <a
             className="inline-block bg-[var(--red)] text-white text-sm font-medium px-6 py-3 rounded-md hover:scale-105 transition-transform cursor-pointer"
+            href={Resume}
+            rel="noopener noreferrer"
+            download="John_Mathis_CV_2025.pdf"
           >
             Download CV
           </a>
           <a
-            className="inline-block bg-[white] border text-black text-sm font-medium px-6 py-3 rounded-md hover:scale-105 transition-transform" href="https://github.com/johnmathis" target="_blank" rel="noopener noreferrer">
+            className="inline-block bg-[white] border text-black text-sm font-medium px-6 py-3 rounded-md hover:scale-105 transition-transform" href="https://www.linkedin.com/in/john-mathis1/" target="_blank" rel="noopener noreferrer">
             Linkedin
           </a>
           </div>
