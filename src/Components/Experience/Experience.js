@@ -18,9 +18,9 @@ const experiences = [
   {
     id: 2,
     logo: Freelaance,
-    alt: "XYZ Corp logo",
+    alt: "Freelance developer clip art",
     company: "Freelance",
-    companyUrl: "https://www.xyz.com",
+    companyUrl: "",
     title: "Software Engineer",
     subtitle: "Frontend & UX",
     skills: ["React", "Next.js", "TailwindCSS", "Figma"],
