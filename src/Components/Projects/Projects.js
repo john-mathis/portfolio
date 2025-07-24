@@ -1,62 +1,63 @@
+// src/components/Projects.jsx
 import React from "react";
-import "..//Projects/Projects.css";
-import { FiGithub } from "react-icons/fi";
-import { CgExport } from "react-icons/cg";
-import { ProjectData } from "../ProjectData/ProjectData";
+import { projects } from "../ProjectData/ProjectData";
 
-const Projects = () => {
-  const displayProjectInfo = ProjectData.map((display) => {
-    return (
-      <React.Fragment key={display.name}>
-        <div className="relative max-w-xs project-card">
-          <p className="uppercase mb-4">{display.name}</p>
-          <img
-            className="min-h-[13rem] max-h-[13rem] min-w-[17rem] max-w-[17rem] rounded-lg"
-            src={display.img}
-            alt="screenshot of projects"
-          />
-          <div className="card-overlay flex flex-col justify-center items-center absolute top-10 left-0 right-0 bottom-0 opacity-0 bg-[var(--transparent-black)] ease-in duration-300">
-            <div className="text-center font-bold underline">
-              {display.name}
-            </div>
-            <div className="text-center font-bold mb-4 px-3 text-base	my-2">
-              {display.description}
-            </div>
-            <div className="flex flex-row">
-              <a target="blank" href={display.github}>
-                <FiGithub
-                  className={` ${
-                    display.github
-                      ? "w-10 h-16 mx-6 hover:bg-[var(--icon-light-hover)]"
-                      : "hidden"
-                  } `}
-                />
-              </a>
-
-              <a target="_blank" href={display.live} rel="noreferrer">
-                <CgExport className="w-10 h-16 mx-6 hover:bg-[var(--icon-light-hover)]" />
-              </a>
-            </div>
-          </div>
-        </div>
-      </React.Fragment>
-    );
-  });
-
-  return (
-    <>
-      <div className="bg-[var(--dark-grey)] pb-12">
-        <div className="max-container-width">
-          <h3 className="text-3xl md:text-4xl my-8 underline underline-offset-[var(--text-underline-spacing)]">
-            Projects
-          </h3>
-          <div className="relative grid place-items-center grid-cols-1 my-4 mx-auto gap-16 max-w-5xl md:grid-cols-2 lg:grid-cols-3">
-            {displayProjectInfo}
-          </div>
-        </div>
+const ProjectCard = ({ image, title, stack, description, liveUrl, repoUrl }) => (
+  <a
+    href={liveUrl}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="group block overflow-hidden rounded-lg shadow-lg"
+  >
+    <div className="relative">
+      <img
+        src={image}
+        alt={title}
+        className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+      />
+      <div className="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-end p-4 opacity-0 group-hover:opacity-100 transition-opacity">
+        <h3 className="text-white text-xl font-semibold">{title}</h3>
+        <p className="text-neutral-300 text-sm">{stack}</p>
       </div>
-    </>
-  );
-};
+    </div>
+    <div className="p-4 bg-[#111]">
+      <p className="text-white text-base mb-2 leading-snug">{description}</p>
+      <div className="flex space-x-4">
+        <a
+          href={repoUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-sm text-[var(--red)] hover:underline"
+        >
+          View Code
+        </a>
+        <span className="text-sm text-neutral-500">|</span>
+        <a
+          href={liveUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-sm text-[var(--red)] hover:underline"
+        >
+          Live Demo
+        </a>
+      </div>
+    </div>
+  </a>
+);
+
+const Projects = () => (
+  <section className=" py-16 px-4">
+    <div className="max-container-width mx-auto">
+      <h3 className="text-3xl md:text-4xl mb-8 underline underline-offset-4 text-white">
+        Projects
+      </h3>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        {projects.map((proj) => (
+          <ProjectCard key={proj.id} {...proj} />
+        ))}
+      </div>
+    </div>
+  </section>
+);
 
 export default Projects;
