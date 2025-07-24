@@ -27,7 +27,6 @@ const experiences = [
     date: "Jan. 2022 – May 2023",
     employmentType: "Contract",
   },
-  // …add more entries here
 ];
 
 const ExperienceCard = ({
