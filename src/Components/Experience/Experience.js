@@ -9,7 +9,7 @@ const experiences = [
     alt: "Accenture logo",
     company: "Accenture",
     companyUrl: "https://www.accenture.com/us-en",
-    title: "Application Dev",
+    title: "Software Engineer",
     subtitle: "Full-stack Development",
     skills: ["Javascript", "TypeScript", "React.js", "Node.js", "Express", "PostgreSQL"],
     date: "Jun. 2023 – Present",
